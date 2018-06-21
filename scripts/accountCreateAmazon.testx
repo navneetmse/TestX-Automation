@@ -1,0 +1,30 @@
+- go to:
+    url: https://www.amazon.in/
+
+- wait to appear:
+    el1: signUpLink
+
+- set:
+    signUpLink:
+
+- wait to appear:
+    el1: createAccountBtn
+
+- set:
+    createAccountBtn:
+
+- sleep:
+    seconds: '3'
+
+- wait to appear:
+    el1: usrName
+
+- set:
+    usrName: "Jignesh Kr"
+    phoneNumber: '9999552257'
+    emailInput: 'navnkr@gmail.com'
+    pwdInput: 'abcd1234'
+    continueBtn:
+
+- sleep:
+    seconds: '3'
